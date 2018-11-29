@@ -1,7 +1,27 @@
 h1{
-    color: #2a2d33;
+    color:#FFFFFF;
 }
 
 img { 
     height: 500px 
+  }
+
+  #r1{
+    background:#008080;
+  }
+  #r2{
+    background:#FFC200;
+  }
+
+  #ic{
+     margin-top: 30px;
+     
+  }
+
+  #col{
+    background:#d500f9;
+  }
+
+  #crs{
+      margin-left:20px;
   }

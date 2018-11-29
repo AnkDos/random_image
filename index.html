@@ -5,6 +5,7 @@
         Random Images
     </title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
     <!-- Compiled and minified JavaScript -->
@@ -16,31 +17,30 @@
 
 <body onload = "gen_ran()">
     
+    <div class = "row" id ="r1">
+        <div class = "col s10">
+            <h1 class="">Hello , Enjoy Random Scenes !</h1>
+        </div>
+        <div class = "col s2" id="ic">
+        <i class="large material-icons" onclick="gen_ran()">refresh</i>
+</div>
+       </div>
+        <div class = "row" id="r2">
+            <div class="col s3"></div>
+            <div class ="col s6" id = "crs">
+           </div>
+</div>
+
+
+
     <div class = "row">
-        <div class = "col s12">
-            <h1>Hello , Enjoy Random Scenes !</h1>
+        <div class = "col s4" id="col">
+          <ul>
+           <li>Designed By AnkDos(github)</li>
+           <li>Slide to changeimage.Refresh Button to load new sequence</li>
+           <li>Electron Desktop App</li>
+          </ul>
         </div>
-        </div>
-        <div class = "row">
-            <div class="col s2"></div>
-        <div class ="col s8">
-             
-            <div class="carousel carousel-slider">
-                <a class="carousel-item" href="#one!"><img src="https://picsum.photos/800/500/?image=144"></a>
-                <a class="carousel-item" href="#two!"><img src="https://picsum.photos/800/500/?image=146"></a>
-              </div>
-            </div>
-
-
     </div>
 </body>
-<script>
-    
-    
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, false);
-    
-  });
-                    </script>
 </html>
