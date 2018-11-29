@@ -6,16 +6,41 @@
     </title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link rel="stylesheet" href="style.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="randimg.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
 </head>
 
 <body onload = "gen_ran()">
     
+    <div class = "row">
+        <div class = "col s12">
+            <h1>Hello , Enjoy Random Scenes !</h1>
+        </div>
+        </div>
+        <div class = "row">
+            <div class="col s2"></div>
+        <div class ="col s8">
+             
+            <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="https://picsum.photos/800/500/?image=144"></a>
+                <a class="carousel-item" href="#two!"><img src="https://picsum.photos/800/500/?image=146"></a>
+              </div>
+            </div>
+
+
+    </div>
 </body>
-
-
+<script>
+    
+    
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, false);
+    
+  });
+                    </script>
 </html>
